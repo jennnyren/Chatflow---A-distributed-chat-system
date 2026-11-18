@@ -1,0 +1,31 @@
+# Build output
+target/
+build/
+*.jar
+*.class
+dependency-reduced-pom.xml
+
+# Stray artifact from a mistyped scp (it is a jar)
+ChatFlow-3(old design)/server-2/ec2-user@*
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local / secret config
+.claude/settings.local.json
+.env
+*.pem
+
+# JMeter raw results (~130 MB); HTML reports in load-tests/jmeter/*-report/ are kept
+*.jtl
